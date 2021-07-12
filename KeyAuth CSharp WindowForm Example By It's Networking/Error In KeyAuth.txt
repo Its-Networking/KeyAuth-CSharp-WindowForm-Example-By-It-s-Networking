@@ -1,0 +1,9 @@
+﻿If you are having an error in KeyAuth.cs with the [DataMembers] etc. Do the following. 
+
+1. Right click the project name. 
+2. Click Manage NuGet Packages.
+3. Make sure package source (top right - next to settings icon) is set to ALL
+4. In the search bar enter:  System.Runtime.Serialization.Json
+5. Install that.
+
+You shouldn't have any more errors :) 
